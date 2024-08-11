@@ -6,7 +6,9 @@
     font-style: normal;
     font-variation-settings:
         "slnt" 0;
+    margin: 0;
 }
+
  
 /* Banner section start.. */
 
@@ -279,3 +281,124 @@ header {
 }
 
 /* habits section end */
+
+/* BMI Calculator Section Start */
+
+.BMI-Section{
+    background-color: black;
+    margin-top: -38px;
+}
+.BMI-Title-section{
+    text-align: center;
+
+}
+.BMI-Title{
+    padding-top: 60px;
+    color: white;
+    font-size: 46px;
+    font-weight: 800;
+    
+}
+.BMI-Description{
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    margin-top: -30px;
+    margin-bottom: 60px;
+    max-width: 600px;
+    margin-left: 370px;
+    
+    
+}
+.flex-style{
+    display: flex;
+    background-color: rgb(34, 34, 34);
+}
+.Calculator-table{
+    padding-left: 210px;
+    padding-top: 30px;
+}
+.table-title{
+    font-size: 28px;
+    font-weight: 900;
+    color: white;
+}
+table{
+    height: 206px;
+}
+th{
+    color: white;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    text-align: start;
+    padding-left: 14px;
+    font-size: 16px;
+    font-weight: 400;
+
+}
+table,tr,td{
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-collapse: collapse;
+    width: 310px;
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 13px;
+    font-weight: 400;
+    padding-left: 15px;
+}
+.table-description{
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+    max-width: 540px;
+    margin-top: -15px;
+    margin-bottom: 32px;
+}
+.Calculate-btn{
+    background-color:  rgba(255, 255, 255, 0.1);
+    border: none;
+    width: 235px;
+    height: 42px;
+    border-radius: 8px;
+    padding-left: 15px;
+    margin-left: 7px;
+    margin-bottom: 10px;
+
+}
+.Gender-btn{
+    background-color:  rgba(255, 255, 255, 0.1);
+    border: none;
+    width: 255px;
+    height: 40px;
+    border-radius: 8px;
+    padding: 5px 10px;
+    margin-left: 7px;
+    color: rgba(255, 255, 255, 0.5);
+}
+.Calculate-style{
+    margin-left: 100px;
+    margin-top: 40px;
+}
+.activity-btn-style{
+    background-color:  rgba(255, 255, 255, 0.1);
+    border: none;
+    width: 518px;
+    height: 40px;
+    border-radius: 8px;
+    padding: 5px 10px;
+    margin-left: 7px; 
+    color: rgba(255, 255, 255, 0.5);
+}
+.BMI-btn{
+    background-color: rgb(230, 83, 60);
+    color: white;
+    border-radius: 40px;
+    border: none;
+    width: 180px;
+    height: 47px;
+    margin-top: 30px;
+    margin-left: 10px;
+    margin-bottom: 40px;
+}
+
+/* BMI Calculator Section End */
