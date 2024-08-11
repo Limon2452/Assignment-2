@@ -1,0 +1,121 @@
+@media screen and (max-width: 576px) { 
+    .banner-section, 
+    .image-section, 
+    .run-section, 
+    .footer-section,
+    .flex-style
+    {
+        flex-direction: column;
+    }
+    .nav-title{
+        padding-left: 10px;
+    }
+    .banner-text{
+        padding-right: 0;
+        padding-left: 10px;
+    }
+    header{
+        height: 100%;
+    }
+    .banner-title{
+        font-size: 40px;
+        max-width: 350px;
+    }
+    .banner-discription{
+        max-width: 330px;
+    }
+    .video-style2{
+        margin-left: 10px;
+        margin-top: 120px;
+    }
+    .video-style{
+        margin-top: 50px;
+        margin-right: 20px;
+    }
+    .bg-img{
+        margin-left: 30px;
+        background-repeat: no-repeat;
+    }
+
+    .image-section{
+        padding-left: 70px;
+    }
+    .run-section{
+        max-width: 370px;
+        height: 650px;
+    }
+    .run-body{
+        padding-right: 35px;
+    }
+    .img2-style{
+        width: 330px;
+        margin-top: 40px;
+        margin-right: 80px;
+        border-radius: 20px;
+    }
+    .img-collage{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        width: 280px;
+    }
+    .footer-discription, 
+    .footer-title{
+        padding-left: 15px;
+    }
+    .footer-item-title{
+        text-align: start;
+        padding-left: 30px;
+    }
+    .footer-section{
+        gap: 0;
+        margin-top: -4px;
+    }
+    .nav-menu{
+        display: none;
+    }
+    .BMI-Description{
+        margin-left: 15px;
+        max-width: 380px;
+    }
+    .Calculator-table{
+        padding-left: 50px;
+    }
+    .Calculate-style{
+        margin-left: 30px;
+    }
+
+    .Calculate-btn{
+        max-width: 150px;
+    }
+    .Gender-btn{
+        max-width: 166px; 
+    }
+    .activity-btn-style{
+        max-width: 343px;
+    }
+    .heading-1{
+        top: 180px;
+    }
+    .heading-2{
+        left: 43px;
+        top: 450px;
+    }
+    .heading-3{
+        left: 40px;
+        top: 715px;
+    }
+    .heading-4{
+        top: 980px;
+    }
+    .heading-5{
+        left: 40px;
+        top: 1250px;
+    }
+    .heading-6{
+        left: 40px;
+    }
+    .line{
+        max-width: 350px;
+    }
+}
+  
