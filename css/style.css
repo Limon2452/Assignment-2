@@ -35,13 +35,17 @@ header {
 
 .nav-menu {
     display: flex;
-    /* border: 1px solid rgba(85, 71, 71, 0.1); */
+    border: 1px solid rgba(255, 255, 255, 0.1);;
     gap: 20px;
     align-items: center;
-    /* border-radius: 5px; */
+    border-radius: 39px;
     color: white;
+    padding: 0;
+    padding-right: 15px;
 }
-
+.hamburger-menu{
+    display: none;
+}
 .nav-menu li {
     list-style: none;
     font-size: 18px;
@@ -371,13 +375,13 @@ table,tr,td{
     width: 255px;
     height: 40px;
     border-radius: 8px;
-    padding: 5px 10px;
+    padding: 10px;
     margin-left: 7px;
-    color: rgba(255, 255, 255, 0.5);
+    color: rgba(255, 255, 255, 0.6);
 }
 .Calculate-style{
     margin-left: 100px;
-    margin-top: 40px;
+    margin-top: 30px;
 }
 .activity-btn-style{
     background-color:  rgba(255, 255, 255, 0.1);
@@ -387,7 +391,8 @@ table,tr,td{
     border-radius: 8px;
     padding: 5px 10px;
     margin-left: 7px; 
-    color: rgba(255, 255, 255, 0.5);
+    color: rgba(255, 255, 255, 0.6);
+    
 }
 .BMI-btn{
     background-color: rgb(230, 83, 60);
@@ -399,6 +404,9 @@ table,tr,td{
     margin-top: 30px;
     margin-left: 10px;
     margin-bottom: 40px;
+}
+::placeholder{
+    color: rgba(255, 255, 255, 0.6);
 }
 
 /* BMI Calculator Section End */
