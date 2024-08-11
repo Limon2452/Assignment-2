@@ -497,3 +497,57 @@ table,tr,td{
 }
 
 /* Team section Ends */
+
+/* footer section start */
+
+.footer-main{
+    background-color: rgb(34, 34, 34);
+}
+.footer-section{
+    display: flex;
+    gap: 120px;
+    max-width: 910px;
+    margin: 0 auto;
+}
+.footer-title{
+    font-size: 45px;
+    font-weight: 800;
+    font-style: italic;
+    color: rgb(230, 83, 60);
+    margin-bottom: 15px;
+}
+.footer-discription{
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 20px;
+    max-width: 420px;
+}
+.footer-item-section{
+    text-align: center;
+    width: 200px;
+    margin-top: 30px;
+}
+.footer-item-title{
+    color: white;
+    font-size: 20px;
+    font-weight: 600;
+}
+.footer-item{
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 30px;
+    list-style: none;
+    text-align: start;
+}
+.line{
+    max-width: 910px;
+}
+.copyright-style{
+    color: white;
+    text-align: center;
+    color: rgba(255, 255, 255, 0.5);
+    padding: 20px;
+}
+/* footer section ends */
