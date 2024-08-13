@@ -47,10 +47,15 @@
     }
     .run-section{
         max-width: 370px;
-        height: 650px;
+        height: 648px;
+        
+    }
+    .habit-section{
+        padding-bottom: 20px;
     }
     .run-body{
         padding-right: 35px;
+        padding-top: 17px;
     }
     .img2-style{
         width: 330px;
@@ -78,6 +83,9 @@
     .nav-menu{
         display: none;
     }
+    .BMI-Section{
+        /* margin-top: 20px; */
+    }
     .BMI-Description{
         margin-left: 15px;
         max-width: 380px;
@@ -96,7 +104,7 @@
         max-width: 166px; 
     }
     .activity-btn-style{
-        max-width: 343px;
+        max-width: 356px;
     }
     .heading-1{
         top: 180px;
