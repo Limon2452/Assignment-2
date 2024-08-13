@@ -611,20 +611,20 @@ table,tr,td{
     font-weight: 400;
     line-height: 20px;
 }
-.join__image {
-    margin-top: 4rem;
+.join-image-section {
+    margin-top: 55px;
     position: relative;
     
 
   }
   
-  .join__image img {
+  .join-image-section img {
     border-radius: 10px;
     width: 67%;
     
   }
   
-  .join__grid {
+  .join-grid-section {
     position: absolute;
     bottom: -80px;
     padding: 32px;
@@ -637,14 +637,14 @@ table,tr,td{
     left: 252px;
   }
   
-  .join__card {
+  .join-card-section {
     display: flex;
     align-items: center;
     gap: 5px;
     max-height: 70px;
   }
   
-  .join__card span {
+  .join-card-section span {
     padding: 5px 8px;
     font-size: 35px;
     color: white;
@@ -653,7 +653,7 @@ table,tr,td{
     margin-left: -12px;
   }
   
-  .join__card h4 {
+  .join-card-section h4 {
     font-size: 22px;
     font-weight: 500;
     color: rgb(255, 255, 255);
@@ -671,7 +671,7 @@ table,tr,td{
     margin-bottom: 25px;
     width: 210px;
   }
-  .join__card p {
+  .join-card-section p {
     color: rgba(255, 255, 255, 0.5);
     font-size: 14px;
     font-weight: 400;
