@@ -3,7 +3,8 @@
     .image-section, 
     .run-section, 
     .footer-section,
-    .flex-style
+    .flex-style,
+    .our-Plan
     {
         flex-direction: column;
     }
@@ -72,9 +73,14 @@
     }
     .grid-section{
         flex-wrap: wrap;
-        /* padding-bottom: 20px; */
     }
-    
+    .our-Plan{
+        gap: 40px;
+        padding-left: 50px;
+    }
+    .plan-section{
+        margin-top: -20px;
+    }
     .footer-discription, 
     .footer-title{
         padding-left: 15px;
@@ -89,9 +95,6 @@
     }
     .nav-menu{
         display: none;
-    }
-    .BMI-Section{
-        /* margin-top: 20px; */
     }
     .BMI-Description{
         margin-left: 15px;
@@ -111,8 +114,9 @@
         max-width: 166px; 
     }
     .activity-btn-style{
-        max-width: 356px;
+        max-width: 370px;
     }
+
     .heading-1{
         top: 180px;
     }
