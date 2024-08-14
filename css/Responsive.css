@@ -41,9 +41,11 @@
         margin-left: 30px;
         background-repeat: no-repeat;
     }
-
+    .grid-calculate{
+        margin-left: -25px;
+    }
     .image-section{
-        padding-left: 70px;
+        padding-left: 30px;
     }
     .run-section{
         max-width: 370px;
@@ -70,8 +72,9 @@
     }
     .grid-section{
         flex-wrap: wrap;
-        padding-bottom: 20px;
+        /* padding-bottom: 20px; */
     }
+    
     .footer-discription, 
     .footer-title{
         padding-left: 15px;
